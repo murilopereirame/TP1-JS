@@ -1,3 +1,6 @@
+.main {
+    height: 100%;
+}
 .left-bar {
     position: absolute;
     height: 100%;
@@ -5,21 +8,19 @@
     padding-left: 3%;
     top: 0;
     left: 0;
-    padding-top: 1%;
     border-right: 2px solid #AAB8C2;
 }
 .right-bar {
     height: 100%;
     width: 25%;
     padding-right: 3%;
-    padding-top: 1%;
     position: absolute;
     right: 0;
     top: 0;
     border-left: 2px solid #AAB8C2;
 }
 .input-search {
-    width: 85%;
+    width: 220px;
     padding-left: 5px;
     line-height: 20px;
     font-size: 15px;
@@ -28,9 +29,8 @@
     background-color: #E1E8ED;
 }
 .search {
+    width: 320px;
     margin-left: 3%;
-    padding-right: 3%;
-    padding-left: 3%;
     border-radius: 50px;
     align-items: center;
     display: flex;
@@ -40,15 +40,28 @@
   
 }
 .trending {
-    margin-left: 3%;
+    width: 320px;
+    margin-left: 3%;    
+    margin-top: 5%;
+    height: 85vh;
+    background: #f5f8fa;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-tr{
     padding-right: 3%;
     padding-left: 3%;
-    margin-top: 5%;
-    height: 100%;
-    margin-bottom: 10%;
-    background: #f5f8fa;
-    border-radius: 15px;;
+    padding-top: 1%;
+    display: inline-flex;
+    
 }
-.main {
-    display: inline-block;
+.treading-gear {
+    width: 50%; 
+    position: relative;
+}
+.treading-head {
+    border-bottom: 1px solid #E1E8ED;
+}
+.side-content {
+    padding-top: 3%;
 }
