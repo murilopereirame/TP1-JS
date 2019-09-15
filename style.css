@@ -1,4 +1,131 @@
+.main {
+    height: 100%;
+}
 .left-bar {
+    position: absolute;
+    height: 100%;
+    width: 25%;
+    padding-left: 3%;
+    top: 0;
+    left: 0;
+    border-right: 2px solid #AAB8C2;
+}
+.footer-link {
+    margin-top: 2% !important;
+    margin-bottom: 2% !important;
+    color: #AAB8C2;
+}
+.tread-inner{
+    margin-top: 5% !important;
+    margin-bottom: 0% !important;
+    color: #AAB8C2;
+}
+.hashtag {
+    margin-top: 1% !important;
+    margin-bottom: 2% !important;
+    font-weight: bold;
+}
+.link-title {
+    margin-top: 5% !important;
+    margin-bottom: 0% !important;
+    color: #AAB8C2;
+}
+.link-text {
+    margin-top: 1% !important;
+    margin-bottom: 2% !important;
+    font-weight: lighter !important;
+}
+.trend-item {
+    padding-left: 3%;
+    position: relative;
+    width: 97%;
+    border-bottom: 1px solid #E1E8ED;
+}
+.footer-trend {
+    padding-top: 1%;
+    padding-left: 3%;
+    position: relative;
+    width: 97%;
+}
+.show-more {
+    margin-top: 1% !important;
+    margin-bottom: 2% !important;
+    font-weight: bold;
+    color: #1DA1F2;
+}
+.treading-link {
+    display: flex;
+    border: 1px solid #E1E8ED;
+    border-radius: 10px;
+    margin-right: 3%;
+    
+}
+.treading-link-text {
+    padding-left: 5%;
+    flex: 75%;
+}
+.treading-link-image {
+    flex: 25%;
+}
+.treading-link-iimage {
+    width: 100%;
+    height: 100%;
+    object-fit: "contain";
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.right-bar {
+    height: 100%;
+    width: 25%;
+    padding-right: 3%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-left: 2px solid #AAB8C2;
+}
+.input-search {
+    width: 220px;
+    padding-left: 5px;
+    line-height: 20px;
+    font-size: 15px;
+    height: 20px;
+    border: 1px solid #E1E8ED;
+    background-color: #E1E8ED;
+}
+.search {
+    width: 320px;
     margin-left: 3%;
-    display: block;
+    border-radius: 50px;
+    align-items: center;
+    display: flex;
+    height: 40px;
+    right: 0;
+    background: #E1E8ED;
+  
+}
+.trending {
+    width: 320px;
+    margin-left: 3%;    
+    margin-top: 5%;
+    height: 80vh;
+    background: #f5f8fa;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-tr{
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-top: 1%;
+    display: inline-flex;
+    
+}
+.treading-gear {
+    width: 50%; 
+    position: relative;
+}
+.treading-head {
+    border-bottom: 1px solid #E1E8ED;
+}
+.side-content {
+    padding-top: 3%;
 }
