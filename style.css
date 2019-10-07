@@ -1,14 +1,20 @@
-.main {
-    height: 100%;
+body, html {
+   height: 100%;
+   padding: 0;
+   margin: 0;
 }
 .left-bar {
-    position: absolute;
+    width: 20%;
+    border-right: 1px solid #AAB8C2;
+    flex-direction: row;
+}
+.center-content{
+    width: 50%;
+    flex-direction: row;
+}
+.main-class{
     height: 100%;
-    width: 25%;
-    padding-left: 3%;
-    top: 0;
-    left: 0;
-    border-right: 2px solid #AAB8C2;
+	display: flex;
 }
 .footer-link {
     margin-top: 2% !important;
@@ -75,13 +81,12 @@
     border-bottom-right-radius: 10px;
 }
 .right-bar {
-    height: 100%;
-    width: 25%;
-    padding-right: 3%;
-    position: absolute;
-    right: 0;
-    top: 0;
-    border-left: 2px solid #AAB8C2;
+    width: 30%;
+    border-left: 1px solid #AAB8C2;
+    flex-direction: row;
+}
+.center-header{
+    align-items: center;
 }
 .input-search {
     width: 220px;
@@ -92,6 +97,20 @@
     border: 1px solid #E1E8ED;
     background-color: #E1E8ED;
 }
+.tweet-area{
+    width: 70%;
+    margin-top: 2%;
+    margin-left: 5%;
+    border: none;
+    border-radius: 15px;
+    height: 75px;
+}
+.avatar {
+    width: 10%;
+    margin-left: 5%;
+    margin-bottom: 1%;
+    border-radius: 50%;
+}
 .search {
     width: 320px;
     margin-left: 3%;
@@ -101,7 +120,12 @@
     height: 40px;
     right: 0;
     background: #E1E8ED;
-  
+}
+.home {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-bottom: 1px solid #E1E8ED;
+    padding-left: 2%;
 }
 .trending {
     width: 320px;
