@@ -10,7 +10,7 @@ textarea {
 .left-bar {
     width: 22% !important;
     flex-direction: row;
-
+    display: flex;
 }
 .center-content{
     width: 45%;
@@ -162,15 +162,17 @@ textarea {
 .first-avatar-tweet {
     width: 70%;
     margin-left: 15%;
+    overflow: hidden;
     margin-top: 15%;
     margin-bottom: 3%;
-    border-radius: 50%;
+    border-radius: 80%;
 }
 .avatar-tweet {
     width: 60%;
     margin-left: 15%;
     margin-top: 15%;
     margin-bottom: 3%;
+    overflow: hidden;
     border-radius: 50%;
 }
 .search {
@@ -218,6 +220,7 @@ textarea {
 
 .side-content {
     padding-top: 3%;
+    padding-left: 5vw;
 }
 
 .img-menu {
@@ -225,8 +228,9 @@ textarea {
     position: relative;
 }
 
-.item-menu {
-    padding-left: 2vh;
+.item-menu{
+    flex-direction: column;
+    padding-left: 1vw;
     align-self: center;
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
@@ -235,26 +239,40 @@ textarea {
 .menu {
     display: inline-flex;
     padding-top: 0.5vh;
+    width: 100%;
+}
+.menu:hover{
+    color: #1DA1F2;
 }
 
 .tweet {
+    line-height: 250%;
     text-align: center;
-    width: 170px;
-    margin-left: 3%;
+    width: 12vw;
+    height: 7vh;
     border-radius: 50px;
-    align-items: center;
-    display: flex;
-    height: 40px;
-    right: 0;
+    align-self: center;
     background: #1DA1F2;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+}
+
+.btn {
+    margin: 0 auto;
+    align-self: center;
+    flex-direction: column;
+}
+.btn:hover{
+    filter: brightness(85%);
 }
 .btnt {
     float: right;
     margin-right: 3%;
     margin-bottom: 10%;
     height: 15px;
+}
+.btnt:hover{
+    filter: brightness(85%);
 }
 .small-tweet {
     background: #1DA1F2;
