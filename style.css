@@ -1,12 +1,14 @@
 body, html {
-    height: 100vh;
+   height: 100vh;
    padding: 0;
    margin: 0;
 }
 textarea {
     resize: none;
 }
-
+a:visited {
+    color: #000;
+}
 .left-bar {
     width: 22% !important;
     flex-direction: row;
@@ -207,6 +209,7 @@ textarea {
     padding-left: 3%;
     padding-top: 1%;
     display: flex;
+    border-bottom: 1px solid #E1E8ED;
 }
 
 .treading-gear {
@@ -240,9 +243,16 @@ textarea {
     display: inline-flex;
     padding-top: 0.5vh;
     width: 100%;
+    padding-left: 5%;
 }
 .menu:hover{
+    background-color: #E8F5FE;
+    border-radius: 50px;
     color: #1DA1F2;
+}
+
+.menu:hover img {
+    filter: saturate(6);
 }
 
 .tweet {
